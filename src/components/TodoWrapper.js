@@ -37,7 +37,9 @@ export const TodoWrapper = () => {
         )
     }
 
-    const deleteTodo = (id) => setTodos(todos.filter((todo) => todo.id !== id))
+    const deleteTodo = (id) => {
+        setTodos(todos.filter((todo) => todo.id !== id))
+    }
 
     return (
         <div className='todoWrapper'>

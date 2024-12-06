@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
 
 export const TodoForm = ({ addTodo }) => {
-    const [value, setValue] = useState('')
+    const [value, setValue] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault(); //prevent default action
@@ -9,8 +9,7 @@ export const TodoForm = ({ addTodo }) => {
             addTodo(value);
             setValue('');
         }
-        
-    }
+    };
     return (
         <form className="todoForm" onSubmit={handleSubmit}>
             <input type="text" className="todo-input" 

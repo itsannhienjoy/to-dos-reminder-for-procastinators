@@ -1,4 +1,4 @@
-# To-dos Reminder for Procrastinators
+# To-dos reminder for Procrastinators
 
 A simple and interactive to-do list built with React, designed to help procrastinators keep track of their tasks and get things done efficiently.
 
@@ -33,11 +33,11 @@ Follow these steps to install and run the project locally:
 
 1. Clone the repository:
 
-git clone https://github.com/itsannhienjoy/to-dos-reminder-for-procastinators.git
+git clone https://github.com/itsannhienjoy/to-dos-reminder-for-procrastinators.git
 
 2. Navigate to the project directory:
 
-cd to-dos-reminder-for-procastinators
+cd to-dos-reminder-for-procrastinators
 
 3. Install dependencies:
 
